@@ -1,0 +1,224 @@
+a {
+    text-decoration: none;
+}
+
+.leg {
+    /* background-image: url("/images/firstBanner.jpg"); */
+    background-image: url("https://t4.ftcdn.net/jpg/03/32/35/55/360_F_332355543_ALHNVl8imzELwnGKkYDcbN2yecJBqGnr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    background-position: center;
+}
+
+.smHead {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #30A2FF;
+}
+
+.lega {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    /* font-style: italic; */
+}
+
+p {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Inter', sans-serif;
+}
+
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* nav link hover style */
+.hov a:hover {
+    color: #30A2FF !important;
+}
+
+nav li {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hover a:after {
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: #30A2FF;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+li>a:hover:after {
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+
+.active {
+    color: #30A2FF !important;
+}
+
+/* #FBC02D */
+
+/* end nav link hover style */
+
+/* back to top style */
+.scrollToTopBtn {
+    background-color: #850f11;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 48px;
+    width: 48px;
+    /* place it at the bottom right corner */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    /* keep it on top of everything else */
+    z-index: 100;
+    /* hide with opacity */
+    opacity: 0;
+    /* also add a translate effect */
+    transform: translateY(100px);
+    /* and a transition */
+    transition: all 0.5s ease;
+}
+
+.showBtn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* end back to top style */
+li {
+    /* text-decoration: none */
+    list-style-type: none
+}
+
+span {
+    color: #30A2FF
+}
+
+/* footer style */
+a {
+    color: #6c757d;
+}
+
+a:hover {
+    color: #fec503;
+    text-decoration: none;
+}
+
+::selection {
+    background: #fec503;
+    text-shadow: none;
+}
+
+footer {
+    padding: 2rem 0;
+    background-color: #212529;
+}
+
+.footer-column:not(:first-child) {
+    padding-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .footer-column:not(:first-child) {
+        padding-top: 0rem;
+    }
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column .nav-item .nav-link {
+    padding: 0.1rem 0;
+}
+
+.footer-column .nav-item span.nav-link {
+    color: #6c757d;
+}
+
+.footer-column .nav-item span.footer-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-column .nav-item .fas {
+    margin-right: 0.5rem;
+}
+
+.footer-column ul {
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .footer-column ul {
+        text-align: left;
+    }
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+    background-color: #fec503;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #1a1d20;
+}
+
+footer .quick-links {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.copyright {
+    color: white;
+}
+
+.fa-ellipsis-h {
+    color: white;
+    padding: 2rem 0;
+}
+.foot{
+    margin-right: 10px;
+}
+/* end footer style */
+.legac{
+    background: rgb(0, 0, 0, .1)url("https://images.unsplash.com/photo-1519435887317-eabcf2ab8075?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
