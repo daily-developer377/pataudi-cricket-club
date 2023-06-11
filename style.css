@@ -4,21 +4,23 @@ a {
 
 .leg {
     /* background-image: url("/images/firstBanner.jpg"); */
-    background-image: url("https://t4.ftcdn.net/jpg/03/32/35/55/360_F_332355543_ALHNVl8imzELwnGKkYDcbN2yecJBqGnr.jpg");
+    /* background-image: url("https://t4.ftcdn.net/jpg/03/32/35/55/360_F_332355543_ALHNVl8imzELwnGKkYDcbN2yecJBqGnr.jpg"); */
+    background-image: url("images/bannerTryHme.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     text-align: center;
     align-items: center;
     background-position: center;
+    height: 100vh;
 }
 
 .smHead {
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-style: italic;
-    color: #30A2FF;
+    /* font-style: italic; */
+    /* color: #30A2FF; */
 }
 
 .lega {
@@ -217,8 +219,23 @@ footer .quick-links {
 }
 /* end footer style */
 .legac{
-    background: rgb(0, 0, 0, .1)url("https://images.unsplash.com/photo-1519435887317-eabcf2ab8075?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    /* background: rgb(0, 0, 0, .1)url("https://images.unsplash.com/photo-1519435887317-eabcfab8075?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"); */
+    background: url("images/legacyBg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center
+    background-position: center;
+}
+.teamMan{
+    background: url("images/teamManBanner.jpg");
+    background-size: cover;
+    /* background-position: top center; */
+    background-repeat: no-repeat; 
+}
+.play{
+    background-image: url("images/bannerTryHme.jpg");
+    background-size: cover;
+    background-position: center;
+    /* width: 100vw; */
+    height: 50vh;
+    background-repeat: no-repeat; 
 }
